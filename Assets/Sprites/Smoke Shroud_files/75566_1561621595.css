@@ -1,0 +1,82 @@
+body {
+    background-color: #222222;
+    background-image: url();
+    background-repeat: no-repeat;    
+}
+.menuecom {width:745px;height:30px;position:relative;z-index:100;border-right:0px solid #000;font-family:arial,sans-serif;}
+.menuecom ul{padding:0;margin:0;list-style-type:none;}
+.menuecom li{background:#AB0000;float:left;position:relative;}
+.menuecom a,.menuecom a:visited{background-position:right;background-repeat:no-repeat;display:block;font-size:12px;text-decoration:none;color:#FFFFFF;height:31px;border:0px solid #000;border-width:0 0px 0 0px;padding-left:10px;line-height:30px;font-weight:bold;}
+.menuecom ul a.nb,.menuecom ul a.nb:visited{background:url(../../../../images/spacer.gif);display:block;font-size:12px;text-decoration:none;height:31px;border:0px solid #000;border-width:0 0px 0 0;padding-left:10px;line-height:30px;font-weight:bold;}
+.menuecom ul a.nb:hover,.menuecom ul a.nb:hover{color:#FFFFFF;background:#AB0000 url(../../../../images/spacer.gif);display:block;}
+.menuecom ul a.nb:hover{background:#AB0000;color:#FFFFFF;}
+.menuecom a.nb:hover,.menuecom ul ul a.nb:hover{color:#FFFFFF;background:#AB0000;}
+.menuecom :hover > a.nb,.menuecom ul ul :hover > a{color:#FFFFFF;background:#AB0000;}
+.menuecom ul ul :hover > a.nb.drop{color:#FFFFFF;background:#AB0000 url(../../../../arquivos/up/ecom/indicador/75566_h1523329689.png) no-repeat 186px center;}
+.menuecom ul ul ul a.nb,.menuecom ul ul ul a.nb:visited{background:#FFFFFF;}
+.menuecom ul ul ul a.nb:hover{background:#AB0000;color:#FFFFFF;}
+.menuecom ul ul{visibility:hidden;position:absolute;height:0;top:31px;left:0;border-top:1px solid black;}
+.menuecom ul ul ul{left:210px;top:-1px;width:210px;}
+.menuecom ul ul ul.left{left:-210px;}
+.menuecom table{position:absolute;top:0;left:0;border-collapse:collapse;}
+.menuecom ul ul a.nb,.menuecom ul ul a.nb:visited{background:#FFFFFF;color:#AB0000;height:auto;line-height:1em;padding:5px 10px;width:188px;font-weight:normal;border-width:0 1px 0 1px;}
+.menuecom ul ul a.nb,.menuecom ul ul a.nb:visited{background:#FFFFFF;color:#AB0000;height:auto;line-height:1em;padding:5px 10px;width:188px;font-weight:normal;border-bottom:1px solid #000;}
+.menuecom ul ul a.nb:hover{background:#AB0000;color:#FFFFFF;}
+.menuecom a.nb:hover,.menuecom ul ul a.nb:hover{color:#FFFFFF;background:#AB0000;background-position:right;background-repeat:no-repeat;}
+.menuecom :hover > a.nb,.menuecom ul ul :hover > a.nb{color:#FFFFFF;background:#AB0000;background-position:right;background-repeat:no-repeat;}
+.menuecom ul li:hover ul,.menuecom ul a:hover ul{visibility:visible;}
+.menuecom ul :hover ul ul{visibility:hidden;}
+.menuecom ul :hover ul :hover ul{visibility:visible;}
+.menuecom ul ul a.drop,.menuecom ul ul a.drop:visited{background:#FFFFFF url(../../../../arquivos/up/ecom/indicador/75566_n1523329689.png) no-repeat 186px center;}
+.menuecom ul ul a.drop:hover{color:#FFFFFF;background:#AB0000 url(../../../../arquivos/up/ecom/indicador/75566_h1523329689.png) no-repeat 186px center;} 
+.menuecom ul ul :hover > a.drop{color:#FFFFFF;background:#AB0000 url(../../../../arquivos/up/ecom/indicador/75566_h1523329689.png) no-repeat 186px center;}
+.menuecom ul ul ul a,.menuecom ul ul ul a:visited{background:#FFFFFF;}
+.menuecom ul ul ul a:hover{background:#AB0000;color:#FFFFFF;}
+.menuecom ul ul a,.menuecom ul ul a:visited{background:#FFFFFF;color:#AB0000;height:auto;line-height:1em;padding:5px 10px;width:188px;font-weight:normal;border-width:0 1px 0 1px;}
+.menuecom ul ul a.lb,.menuecom ul ul a.lb:visited{background:#FFFFFF;color:#AB0000;height:auto;line-height:1em;padding:5px 10px;width:188px;font-weight:normal;border-bottom:1px solid #000;}
+.menuecom ul ul a.lb:hover{background:#AB0000;color:#FFFFFF;}
+.menuecom ul ul a.lbdrop,.menuecom ul ul a.lbdrop:visited{border-bottom:1px solid #000;}
+.menuecom a:hover,.menuecom ul ul a:hover{color:#FFFFFF;background:#AB0000;background-position:right;background-repeat:no-repeat;}
+.menuecom :hover > a,.menuecom ul ul :hover > a{color:#FFFFFF;background:#AB0000;background-position:right;background-repeat:no-repeat;}
+
+.carrinhoMenu {
+display:block; 
+width: 149px; 
+height: 31px; 
+line-height: 31px; 
+        background-color: #AB0000;
+/*background-image: url(../../images/ecom/barra_carrinho.png); */
+font-size: 12px;
+font-family: arial,verdana,freesans,garuda,helvetica,sans-serif;
+text-decoration:none; 
+text-align:left;
+z-index:998;
+font-family:arial,sans-serif;
+font-size:12px;text-decoration:none;color:#FFFFFF;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+.barraBuscaTopo {
+    margin-left:10px; 
+    margin-top:5px;
+    background: url(../../../../arquivos/up/ecom/busca/75566_1523329689.png) no-repeat; 
+    width:495px; 
+    height:25px;
+}
+
+.barraBuscaCampo {
+    outline:none;
+    border:0px;
+    background-color:transparent;
+    padding:0;
+    margin:0 0 0 20px;
+    width:371px;
+    height:17px;
+}
+.botaoComprarSubstituicao {
+    background: none repeat scroll 0 0 #7CB291!important;
+    border: 1px solid #FFFFFF!important;
+    color: #FFFFFF!important;
+}
